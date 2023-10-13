@@ -1,3 +1,4 @@
 void main() {
-  print('hello world');
+  String? nico = 'nico';
+  nico = null;
 }
