@@ -1,10 +1,8 @@
+String sayHello(String potato) => "Hello $potato nice to meet you!";
+
+num plus(num a, num b) => a + b;
+
 void main() {
-  var oldFriends = ['nico', 'lynn'];
-  var newFriends = [
-    'lewis',
-    'ralph',
-    'darren',
-    for (var friend in oldFriends) "❤️‍🔥$friend",
-  ];
-  print(newFriends);
+  print(sayHello('nico'));
+  print(plus(1, 2));
 }
