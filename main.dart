@@ -1,11 +1,13 @@
-String sayHello({
-  required String name,
-  required String country,
-  required int age,
-}) {
-  return "Hello $name, you are $age, and you come from $country";
+class Player {
+  final String name = 'nico';
+  int xp = 1500;
+
+  void sayHello() {
+    print("Hi my name is $name");
+  }
 }
 
 void main() {
-  print(sayHello(name: 'nico', country: 'Korea', age: 17));
+  var player = Player();
+  player.sayHello();
 }
